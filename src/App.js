@@ -1,11 +1,11 @@
 import React from "react";
-// import PersistentDrawerLeft from "./components/Sidebar";
-import CleanScan360 from "./components/CleanScan360";
+import Sidebar from "./components/Sidebar";
+
 
 const App = () => {
   return (
     <>
-      <CleanScan360 />
+      <Sidebar />
     </>
   );
 };

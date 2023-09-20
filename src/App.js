@@ -5,12 +5,15 @@ import Sidebar from "./components/Sidebar";
 import DetectX from "./components/DetectX";
 import CrowdSense from "./components/CrowdSense";
 import Videos from "./components/Videos";
+import Sidebar from "./components/Sidebar";
+
 
 
 const App = () => {
   return (
     <>
-    <BrowserRouter>1
+
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Sidebar />} />
         <Route path="/DetectX" element={<DetectX />} />
@@ -19,7 +22,6 @@ const App = () => {
         <Route path="/videos" element={<Videos/>} />
       </Routes>
       </BrowserRouter>
-
     </>
   );
 };

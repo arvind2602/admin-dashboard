@@ -4,6 +4,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import DetectX from "./components/DetectX";
 import CrowdSense from "./components/CrowdSense";
 import Videos from "./components/Videos";
+import Login from "./components/Login";
 
 
 
@@ -13,7 +14,7 @@ const App = () => {
 
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Videos />} />
+        <Route path="/" element={<Login />} />
         <Route path="/DetectX" element={<DetectX />} />
         <Route path="/CrowdSense" element={<CrowdSense />} />
         <Route path="/CleanScan360" element={<CleanScan360 />} />

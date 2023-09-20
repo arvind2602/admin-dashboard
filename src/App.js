@@ -5,7 +5,6 @@ import Sidebar from "./components/Sidebar";
 import DetectX from "./components/DetectX";
 import CrowdSense from "./components/CrowdSense";
 import Videos from "./components/Videos";
-import Sidebar from "./components/Sidebar";
 
 
 
